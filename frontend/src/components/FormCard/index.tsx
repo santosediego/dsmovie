@@ -1,6 +1,7 @@
 import axios, { AxiosRequestConfig } from 'axios';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import { Movie } from 'types/movie';
 import { BASE_URL } from 'utils/requests';
 import { validateEmail } from 'utils/validate';
@@ -45,6 +46,7 @@ function FormCard({ movieId }: Props) {
         }
 
         axios(config).then(response => {
+            toast.success("Avaliado!")
             navigate("/");
         });
     }
@@ -57,7 +59,7 @@ function FormCard({ movieId }: Props) {
                 <form className="dsmovie-form" onSubmit={handleSubmit} >
                     <div className="form-group dsmovie-form-group">
                         <label htmlFor="email">Informe seu email</label>
-                        <input type="email" className="form-control" id="email" />
+                        <input type="email" className="form-control" id="email" required />
                     </div>
                     <div className="form-group dsmovie-form-group">
                         <label htmlFor="score">Informe sua avaliação</label>

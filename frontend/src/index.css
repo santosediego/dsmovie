@@ -2,6 +2,7 @@
 
 :root {
   --color-primary: #4D41C0;
+  --toastify-icon-color-success: var(--color-primary) !important;
 }
 
 * {
@@ -16,4 +17,8 @@ html, body {
 a, a:hover {
   text-decoration: none;
   color: unset;
+}
+
+.Toastify__progress-bar--animated {
+  background: var(--color-primary) !important;
 }
