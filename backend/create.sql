@@ -37,6 +37,10 @@ INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Interestelar', '
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Contato', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/yFkUPqBuUnbhYbQL8VFpTrAT9za.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Duna', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jYEW5xZkZk2WTrdbMGAPFuBqbDc.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Aquaman', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/2cUsDz4TzFYHrKktT1bKHHQ7Cgm.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Deadpool', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3E53WEZJqP6aM84D8CckXx4pIHw.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Deadpool 2', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6CABdPx68rYoLdvXhIJkilOj6XZ.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Deadpool & Wolverine', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xq4v7JE8niZ75OYYPDGNn6Gzpyt.jpg');
+
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (1, 1, 5.0);
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (1, 2, 4.0);
 INSERT INTO tb_score(movie_id, user_id, value) VALUES (2, 1, 3.0);
